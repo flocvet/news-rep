@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Новостное агентство</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/aside.css">
+	<link rel="stylesheet" type="text/css" href="css/exchange.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+	<header class="header clearfix">
+		<div class="black-bar">
+			<div class="fixed-container">
+				
+				<h1 class="latest-news">Самые
+					<a href="#/news"> <u>свежие новости</u></a> в реальном времени
+				</h1>
+
+				<time class="news-time" datetime="2018-06-19T12:30">12:30 19.06.2019</time>
+			</div>
+		</div>
+		
+		<div class="white-bar clearfix">
+			<div class="fixed-container">
+				
+				<a class="logo"><img src="img/logo.png" alt="Новостное агентство"></a>
+			
+				<label class="select-wrapper">
+  					<select class="custom-select"><option value="Msc">Москва</option>
+  					</select>
+  				</label>
+
+  				<time class="header-time" datetime="2018-06-19T10:48">19 июня, вторник
+  					<span class="icon-time">10:48</span>
+  				</time>
+
+  				<span class="weather">+23 ℃</span>
+
+  				<form class="search" method="post" action="https://echo.htmlacademy.ru">
+  					<input class="input" type="search" name="search" placeholder="Поиск по сайту">
+  					<button class="search-button" type="submit" aria-label="Найти"></button>
+  				</form>        
+			</div>
+			
+			<div class="fixed-container">
+				<nav>
+					<ul class="navigation"> <!--каждому li назначаю класс, чтобы сделать разделители / -->
+						<li class="nav"><a href="#">Главная</a></li>  
+   						<li class="nav"><a href="#/politics">Политика</a></li>  
+   						<li class="nav"><a href="#/society">Общество</a></li>  
+   						<li class="nav"><a href="#/economics">Экономика</a></li>  
+   						<li class="nav"><a href="#/world">В мире</a></li>  
+   						<li class="nav"><a href="#/accidents">Проишествия</a></li>  
+   						<li class="nav"><a href="#/sport">Спорт</a></li>  
+   						<li class="nav"><a href="#/science">Наука</a></li>  
+   						<li class="nav"><a href="#/tourism">Туризм</a></li>
+   					</ul>
+   				</nav>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="central-container clearfix">
+			<div class="fixed-container">
+				<section class="column-left">
+					<h2 class="today-news">Новости дня</h2>		<!--изменяю код, Назначаю классы ul,li,h3,h2-->
+					<ul class="today-news-list">
+						<li class="news-item">
+							<article>	
+								<h3 class="news-item-text"><a href="#/wc">Кот Ахилл предсказал <br>победу российской сборной 
+								<br>над Египтом на ЧМ-2018</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/wc">ЧМ по футболу</a><!--меняю время и комменты местами-->
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>	
+							</article>
+						</li>
+						<li class="news-item">	
+							<article>	
+								<h3 class="news-item-text"><a href="#/politics">«Нафтогаз»: суд разрешил заморозить активы «Газпрома» <br>в Великобритании</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/politics">Политика</a>
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>
+							</article>
+						</li>
+						<li class="news-item">	
+							<article>	
+								<h3 class="news-item-text"><a href="#">Минтранс предписал оборудовать общественный транспорт кондиционерами</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/transport">Транспорт</a>
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>		
+							</article>
+						</li>
+						<li class="news-item">	
+							<article>	
+								<h3 class="news-item-text"><a href="#">Летние кафе Москвы <br>временно закроются из-за непогоды</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/weather">Погода</a>
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>
+							</article>
+						</li>
+						<li class="news-item">	
+							<article>	
+								<h3 class="news-item-text"><a href="#">Комплексное благоустройство Щелковского шоссе завершится <br>в июне</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/transport">Транспорт</a>
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>
+							</article>
+						</li>
+						<li class="news-item">	
+							<article>	
+								<h3 class="news-item-text"><a href="#">В Москве назвали самое популярное мороженое <br>у болельщиков ЧМ-2018</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/wc">ЧМ по футболу</a>
+									<span class="news-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="news-icon-time">10:45</span></time>
+								</div>
+							</article>
+						</li>
+					</ul>
+					<button class="button-allnews" name="all-news" value="Все новости">Все новости</button>
+				</section>
+				
+				<section class="column-center">
+					<h2 class="visually-hidden">Невидмый заголовок</h2>
+					<ul class="list-center clearfix">
+						<li class="big-news">	
+							<article class="top-news">
+								<img class="top-img" src="img/news-1.png" alt="Крым">
+								<div class="top-content"><!---переделал код, добавил обертку в top-content-->
+									<a href="#/politics" class="category">/Политика</a>
+									<h3 class="top-news-text">
+										<a>В Крыму отреагировали на слова Кравчука <br>о возврате полуострова</a>
+									</h3>
+									<div class="top-news-props">
+										<time datetime="2018-06-19T10:45">19 Июня 2018<span class="top-icon-time">10:45</span>
+										</time>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="small-news">
+							<article>
+								<a class="small-news-img" href="#"><img src="img/navalny.png" alt="Навальный"></a>	
+								<h3 class="small-news-text">
+									<a href="#/politics">Алексей Навальный объявил акцию против пенсионной реформы 1 июля</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/politics">Политика</a>
+									<span class="small-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="small-icon-time">10:45</span>
+									</time>
+								</div>
+							</article>
+						</li>
+						<li class="small-news">
+							<article>
+								<a class="small-news-img" href="#"><img src="img/pasport.png" alt="Загранпаспорт"></a>	
+								<h3 class="small-news-text">
+									<a href="#/society">Дума увеличила пошлины <br>за выдачу загранпаспортов <br>и водительских прав
+									</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/society">Общество</a>
+									<span class="small-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="small-icon-time">10:45</span>
+									</time>
+								</div>
+							</article>
+						</li>
+						<li class="small-news">
+							<article>
+								<a class="small-news-img" href="#"><img src="img/youtube.png" alt="Стриминг"></a>	
+								<h3 class="small-news-text">
+									<a href="#/internet">В России заработал стриминговый сервис YouTube</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/internet">Интернет</a>
+									<span class="small-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="small-icon-time">10:45</span>
+									</time>
+								</div>
+							</article>
+						</li>
+						<li class="small-news">
+							<article>
+								<a class="small-news-img" href="#"><img src="img/kane.png" alt="Кейн"></a>
+								<h3 class="small-news-text">
+									<a href="#/wc">Кейн признан лучшим игроком матча ЧМ-2018 <br>Тунис — Англия</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/wc">Политика</a>
+									<span class="small-comments-count">15</span>
+									<time class="small-time" datetime="10:45"><span class="small-icon-time">10:45</span>
+									</time>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</section>
+				
+				<aside class="aside">
+					<a class="banner" href="#"><img src="img/banner-1.png" alt="Реклама Lexus"></a>
+					<a class="banner" href="#"><img src="img/banner-2.png" alt="Реклама Фитнеса"></a>
+				</aside>
+
+				<article class="exchange">
+					<h2 class="exchange-rate">Курсы валют</h2>
+					<table class="exchange-table" cellspacing="0" cellpadding="10">
+						<tr>
+							<th>USD</th>
+							<td class="exchange-usd"></td>
+							<th>EUR</th>
+							<td class="exchange-eur">4</td>
+						</tr>
+					</table>
+				</article>
+			
+				<section class="column-read-news">
+					<h2 class="read-news">Самые читаемые новости</h2>
+					<ul class="read-news-list clearfix">
+						<li class="peking">
+							<article class="read-news-peking">	
+								<img class="read-news-img" src="img/pekin.png" alt="Пекин">
+								<div class="read-news-content">	
+									<a href="#/politics" class="politics">/Политика</a>
+									<h3 class="read-news-text" >
+										<a>Пекин обвинил Вашингтон <br>в развязывании торговой <br>войны</a>
+									</h3>
+									<div class="read-news-props">
+										<time datetime="2018-06-19T10:45">19 Июня 2018 
+											<span class="peking-icon-time">10:45</span>
+										</time>
+									</div>
+									<p class="news-small-text" >Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары
+									</p>
+								</div>
+							</article>
+						</li>
+						<li class="down-news">
+							<article>	
+								<h3 class="down-item-text">
+									<a href="#/politics">В Турции пообещали найти альтернативу из-за отказа США поставить F-35</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/politics">Политика</a>
+									<time datetime="11:39"><span class="down-time">11:39</span></time>
+									<span class="down-comments-count">25</span>
+								</div>
+							</article>
+						</li>
+						<li class="down-news">
+							<article>	
+								<h3 class="down-item-text">
+									<a href="#/politics">Назван минимальный доход для причисления к среднему классу</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/politics">Политика</a>
+									<time datetime="11:39"><span class="down-time">11:39</span></time>
+									<span class="down-comments-count">25</span>
+								</div>
+							</article>
+						</li>
+						<li class="down-news">
+							<article>	
+								<h3 class="down-item-text">
+									<a href="#/politics">Назван минимальный доход для причисления <br>к среднему классу</a>
+								</h3>
+								<div class="news-item-props">
+									<a href="#/politics">Политика</a>
+									<time datetime="11:39"><span class="down-time">11:39</span></time>
+									<span class="down-comments-count">25</span>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer clearfix">
+		<div class="fixed-container">
+			<ul class="list-footer">
+				<li class="list-footer-rubric"><a href="#">Главная</a></li>  
+				<li class="list-footer-rubric"><a href="#/politics">Политика</a></li>  
+				<li class="list-footer-rubric"><a href="#/society">Общество</a></li>  
+				<li class="list-footer-rubric"><a href="#/economics">Экономика</a></li>  
+				<li class="list-footer-rubric"><a href="#/world">В мире</a></li>  
+				<li class="list-footer-rubric"><a href="#/accidents">Проишествия</a></li>  
+				<li class="list-footer-rubric"><a href="#/sport">Спорт</a></li>  
+				<li class="list-footer-rubric"><a href="#/science">Наука</a></li>  
+				<li class="list-footer-rubric"><a href="#/tourism">Туризм</a></li>
+			</ul>
+			<div class="about">
+				<a class="logo-footer"><img src="img/logo-footer.png" alt="Новостное агентство"></a>
+				<ul class="about-list">
+					<li class="about-list-item"><a href="#/about">Об агенстве</a></li>
+					<li class="about-list-item"><a href="#/contacts">Контакты</a></li>
+					<li class="about-list-item"><a href="#/publishnews">Опубликовать новость</a></li>
+				</ul>
+			</div>
+			<div class="social">
+				<ul class="social-icons clearfix">
+					<li class="social-icons-item"><!--добавил class="social-icons-item",чтобы прописать там margin-->
+						<a href="#/vk" aria-label="Мы вконтакте" class="vk social-img"></a>
+					</li>
+					<li class="social-icons-item">
+						<a href="#/fb" aria-label="Мы в фейсбук" class="facebook social-img"></a>
+					</li>
+					<li class="social-icons-item">
+						<a href="#/tw" aria-label="Мы в твиттер" class="twitter social-img"></a>
+					</li>
+					<li class="social-icons-item">
+						<a href="#/inst" aria-label="Мы в инстаграм" class="instagram social-img"></a>
+					</li>
+				</ul>
+				<address class="address"><!--добавил class="address", пропала высота-->
+					<ul class="contacts">
+						<li class="contacts-img">
+							<a href="tel:+74999955555" class="tel">+7 (499) 995-55-55</a>
+						</li>
+						<li>
+							<a href="mailto:info@agency.ru" class="mail">info@agency.ru</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+		</div>
+		<div class="copy">
+			<p class="copy-text">© Новостное агентство, 2017-2018 все права защищены</p>
+		</div>
+	</footer>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

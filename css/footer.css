@@ -1,0 +1,108 @@
+.footer {
+	background-color: #00122f;
+	color: #ffffff;
+	padding-top: 54px;
+}
+.list-footer {
+	columns: 2;
+	float: left;
+	font-size: 16px;
+	line-height: 22px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.list-footer-rubric {
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+.about {
+	float: left;
+	margin-left: 178px;
+	padding-top: 4px;
+}
+.logo-footer {
+	float: left;
+	margin-bottom: 8px;
+}
+.about-list {
+	clear: left;
+	float: left;
+	font-size: 16px;
+	line-height: 32px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.social {
+	float: left;
+	margin-left: 172px;
+}
+.social-icons {
+	float: left;
+	list-style-type: none;
+	margin: 0 0 42px;
+	padding: 0;
+}
+.social-icons-item {
+	display: inline-block;
+	margin-right: 17px;
+}
+.social-icons-item:last-child {
+	margin-right: 0;
+}
+.social-img {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+.vk {
+	background: url("../img/vk.png");
+}
+.facebook {
+	background: url("../img/fb.png");
+}
+.twitter {
+	background: url("../img/tw.png");
+}
+.instagram {
+	background: url("../img/inst.png");
+}
+.address {
+	clear: left;
+	display: inline-block;
+	float: left;	
+}
+.contacts {
+	font-size: 18px;
+	font-style: normal;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.contacts-img {
+	margin-bottom: 25px;
+}
+.tel {
+	background: url("../img/phone.png") no-repeat;
+	padding-left: 33px;
+}
+.mail {
+	background: url("../img/mail.png") no-repeat;
+	background-position: left center;
+	padding-left: 33px;
+}
+.copy {
+	border-top: 1px solid #26354e;
+	color: #91919f;
+	float: left;
+	margin-top: 54px;
+	padding: 15px 20px 15px 40px;
+	text-align: center;
+	width: 100%;
+}
+.copy-text {
+	margin: 0;
+}
+

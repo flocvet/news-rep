@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box; /*учитываются любые границы и внутренние отступы в значениях, 
+	которые вы указываете в ширине и высоте элемента*/
+}
+
+*,																	
+*::before,	/* * - все элементы, *::before все псевдоэлементы "before", *::after все псевдоэлементы "after" на странице*/
+*::after {
+	box-sizing: inherit; /*наследовать значение свойства у родительского элемента*/
+}
+body {
+	min-width: 1000px;
+	margin: 0;
+	background-color: transparent;
+	font-family: "Arial", sans-serif;/*шрифт, если 1-го шрифта нет на компе, применяется след. и т.д. */
+	font-size: 14px;
+	line-height: 18px;/* определяет минимальную высоту строки текста*/
+	color: #000000;/*Определяет цвет текста элемента.*/
+}
+
+body.modal-active {  /*модальное окно, а оно тут нужно?*/
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%
+}
+
+a {
+	text-decoration: none; /*Отменяет все эффекты, в том числе и подчёркивание у ссылок, которое задано по умолчанию.*/
+	color: inherit; /*наследовать значение свойства у родительского элемента*/
+}
+
+.fixed-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0;
+	border:0;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden;
+}
+
+.clearfix::after {
+	content: ""; /*Генерируем пустой элемент*/
+	display: table; /*Определяет, что элемент является блочной таблицей*/
+	clear: both; /*одновременно отменяет действие значений left и right у float*/
+}

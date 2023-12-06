@@ -1,0 +1,12 @@
+.aside {
+	float: right;
+	margin-bottom: 15px;
+	width: 250px;
+}
+.banner {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.banner:last-child {
+	margin-bottom: 0;
+}

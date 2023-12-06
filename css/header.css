@@ -1,0 +1,123 @@
+.header {
+	padding-bottom: 34px;
+}
+.latest-news {
+	display: inline;
+	font-size: 16px;
+	font-weight: 400;
+}
+.news-time {
+	float: right;
+}
+.black-bar {
+	background-color: #00122f;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 40px;
+	padding: 20px 0;
+}
+.logo {
+	float: left;
+}
+.select-wrapper {
+	display: inline-block;
+	float: left;
+	font-size: 0;
+	margin-left: 60px;
+	padding-top: 12px;
+	position: relative;
+}
+.select-wrapper::after {
+	border-bottom: 2px dashed #448ccb;
+	bottom: 0;
+	content: '';
+	height: 1px;
+	left: 0;
+	position: absolute;
+	right: 15px;
+}
+.custom-select {
+	appearance: none;
+	background: url("../img/down-arrow.png") 100% center no-repeat;
+	background-size: 9px 5px;
+	border: 0;
+	color: #448ccb;
+	font-size: 16px;
+	moz-appearance: none;
+	padding-right: 15px;
+	webkit-appearance: none;
+}
+.header-time {
+	color: #91919f;
+	float: left;
+	font-size: 16px;
+	margin-left: 50px;
+	padding: 12px 0;
+}
+.icon-time {
+	background: url("../img/clock.png") no-repeat;
+	background-position: center left;
+	background-size: 16px;
+	margin-left: 35px;
+	padding-left: 25px;
+}
+.weather {
+	background: url("../img/icon-weather.png") no-repeat;
+	background-position: bottom left;
+	color: #91919f;
+	float: left;
+	font-size: 16px;
+	margin-left: 20px;
+	padding: 12px 0 0 35px;
+}
+.search {
+	float: right;
+	height: 46px;
+	position: relative;
+	width: 320px;
+}
+.input {
+	background-color: #f6f6f6;
+	border: none;
+	border-radius: 25px;
+	color: #000000;
+	height: 100%;
+	padding-left: 18px;
+	padding-right: 35px;
+	width: 100%;
+}
+.search-button {
+	background-color: transparent;
+	background-image: url("../img/search.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	border: none;
+	cursor: pointer;
+	height: 20px;
+	transform: translate(282px, -33px);
+	width: 20px;
+}
+.navigation {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 34px 0 0;
+}
+.nav {
+	float: left;
+	font-size: 16px;
+	margin-right: 40px;
+	position: relative;
+}
+.nav::after {
+	color: #c9c9c9;
+	content: "/";
+	font-size: 20px;
+	position: absolute;
+	right: -22px;
+	top: 0;
+}
+.nav:last-child:after {
+	content: "";
+}
